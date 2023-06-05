@@ -1,0 +1,13 @@
+package Abstract;
+
+public class Cat extends Animal{
+    @Override
+    public void makeNoise() {
+        System.out.println("Meow");
+
+    }
+
+    String play = "cat play";
+
+
+}
